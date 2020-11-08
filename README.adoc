@@ -15,6 +15,8 @@ endif::[]
 
 NOTE: Acesse uma Playlist de vídeos mostrando todo o processo de desenvolvimento da aplicação https://www.youtube.com/watch?v=hEPAr4MPQjU&list=PLyo0RUAM69UvnqUq5SFeVahS_YTUVgq4v[aqui].
 
+A aplicação está hospedada em https://chatwebs.herokuapp.com/
+
 image:chat-websockets.gif[]
 
 Web chat utilizando http://nodejs.org:[Node.js]. Com Node.js podemos usar JavaScript no lado servidor. A aplicação utiliza http://websocket.org[WebSockets (recurso do HTML5)] com a biblioteca http://socket.io para implementar o chat.
@@ -137,4 +139,4 @@ de build como Maven e npm (este último que estamos usando aqui).
 
 Como esta aplicação é desenvolvida utilizando Node.js, o Heroku identifica isso pela existência do arquivo package.json e assim criar todo um ambiente de execução de aplicações Node pra gente.
 
-A aplicação está hospedada em https://chatwss.herokuapp.com.
+A aplicação está hospedada em https://chatwebs.herokuapp.com/
